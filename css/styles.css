@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+/*portrait mobile layout*/
+@media (max-width: 650px) {
+    .container {
+        max-width: 500px;
+        margin: 0 auto;
+        background-color: beige;
+        border-radius: 8px;
+    }
+
+    #andy-image {
+        max-width: 100%;
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
+
+    main p {
+        margin-bottom: 32px;
+        padding: 0 25px;
+    }
+
+    main p:last-child {
+        margin-bottom: 0;
+        padding-bottom: 25px;
+    }
+}
+
+@media (orientation: landscape) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: beige;
+        border-radius: 8px;
+    }
+
+    #andy-image {
+        max-width: 600px;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 24px;
+        padding-top: 25px;
+    }
+
+
+    main p {
+        margin-bottom: 32px;
+        padding: 0 25px;
+    }
+
+    main p:last-child {
+        margin-bottom: 0;
+        padding-bottom: 25px;
+    }
+}
+
+
+/*Desktop*/
