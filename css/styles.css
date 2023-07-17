@@ -1,65 +1,103 @@
 * {
-    padding: 0;
     margin: 0;
-    line-height: 2;
-    font-family: "Open Sans", sans-serif;
+    padding: 0;
     box-sizing: border-box;
 }
 
-/*portrait mobile layout*/
-@media (max-width: 650px) {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 36px;
+        background-color: #9ccfef;
+        background: linear-gradient(to right top, #9ccfef, #e17f7f);
+}
+
+h1 {
+    font-family: Geographica, "Open Sans", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 18px;
+}
+
+#andy-image {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+main {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+}
+
+main p {
+    margin-bottom: 24px;
+}
+
+main p:last-child {
+    margin-bottom: 0;
+}
+
+@media (max-width: 800px) {
     .container {
-        max-width: 500px;
-        margin: 0 auto;
-        background-color: beige;
-        border-radius: 8px;
+        line-height: 1.5;
+        background-color: #fdb0b0;
+
     }
 
     #andy-image {
+        display: block;
         max-width: 100%;
-        display: inline-block;
-        margin: 0 auto;
-        margin-bottom: 24px;
-    }
-
-    main p {
-        margin-bottom: 32px;
-        padding: 0 25px;
+        margin: 0 auto 24px;
     }
 
     main p:last-child {
-        margin-bottom: 0;
-        padding-bottom: 25px;
+        margin-bottom: 44px;
+    }
+
+    footer {
+        text-align: center;
     }
 }
 
-@media (orientation: landscape) {
+@media (min-width: 800px) {
     .container {
         max-width: 1200px;
-        margin: 0 auto;
-        background-color: beige;
-        border-radius: 8px;
+        background-color: #9ccfef;
+        border-radius: 10px;
+    }
+
+    h1 {
+        margin-bottom: 24px;
     }
 
     #andy-image {
-        max-width: 600px;
-        display: block;
-        margin: 0 auto;
-        margin-bottom: 24px;
-        padding-top: 25px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 40px;
+        max-width: 30%;
     }
 
+    main {
+        font-family: "Open Sans", sans-serif;
+        font-size: 22px;
+        display: inline-block;
+        max-width: 60%;
+        margin-top: -5px;
+    }
 
     main p {
-        margin-bottom: 32px;
-        padding: 0 25px;
+        margin-bottom: 24px;
+        display: inline-block;
     }
 
     main p:last-child {
-        margin-bottom: 0;
-        padding-bottom: 25px;
+        margin-bottom: 44px;
+    }
+
+    footer {
+        text-align: center;
     }
 }
-
-
-/*Desktop*/
