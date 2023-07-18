@@ -8,12 +8,12 @@
     max-width: 1200px;
     margin: 0 auto;
     padding: 24px 36px;
-        background-color: #9ccfef;
-        background: linear-gradient(to right top, #9ccfef, #e17f7f);
+    background-color: #9ccfef;
+    background: linear-gradient(to right top, #9ccfef, #e17f7f);
 }
 
 h1 {
-    font-family: Geographica, "Open Sans", sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 48px;
     text-align: center;
     text-decoration: underline;
@@ -28,7 +28,7 @@ h1 {
 }
 
 main {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", Helvetica, sans-serif;
     font-size: 22px;
 }
 
@@ -38,6 +38,10 @@ main p {
 
 main p:last-child {
     margin-bottom: 0;
+}
+
+footer {
+    font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 @media (max-width: 800px) {
