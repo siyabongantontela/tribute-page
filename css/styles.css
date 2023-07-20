@@ -22,7 +22,7 @@ h1 {
 
 #andy-image {
     display: block;
-    max-width: 80%;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 24px;
 }
@@ -48,21 +48,27 @@ footer {
     .container {
         line-height: 1.5;
         background-color: #fdb0b0;
-
+        padding: 0;
     }
 
     #andy-image {
         display: block;
-        max-width: 100%;
-        margin: 0 auto 24px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    main {
+        padding: 2rem;
     }
 
     main p:last-child {
-        margin-bottom: 44px;
+        margin-bottom: 0;
     }
 
     footer {
         text-align: center;
+        padding-bottom: 3rem;
+
     }
 }
 
@@ -88,7 +94,7 @@ footer {
         font-family: "Open Sans", sans-serif;
         font-size: 22px;
         display: inline-block;
-        max-width: 60%;
+        width: 60%;
         margin-top: -5px;
     }
 
@@ -103,5 +109,6 @@ footer {
 
     footer {
         text-align: center;
+        padding-bottom: 2rem;
     }
 }
