@@ -4,20 +4,24 @@
     box-sizing: border-box;
 }
 
+:root{
+    font-size: 16px;
+}
+
 .container {
-    max-width: 1200px;
+    max-width: 75em;
     margin: 0 auto;
-    padding: 24px 36px;
+    padding: 1.5em 2.25em;
     background-color: #9ccfef;
     background: linear-gradient(to right top, #9ccfef, #e17f7f);
 }
 
 h1 {
     font-family: "Open Sans", Helvetica, sans-serif;
-    font-size: 48px;
+    font-size: 3rem;
     text-align: center;
     text-decoration: underline;
-    margin-bottom: 18px;
+    margin-bottom: 1em;
 }
 
 #andy-image {
@@ -49,6 +53,7 @@ footer {
         line-height: 1.5;
         background-color: #fdb0b0;
         padding: 0;
+        font-family: Roboto, "Open Sans", Helvetica, sans-serif;
     }
 
     #andy-image {
@@ -77,6 +82,7 @@ footer {
         max-width: 1200px;
         background-color: #9ccfef;
         border-radius: 10px;
+        font-family: Roboto, "Open Sans", Helvetica, sans-serif;
     }
 
     h1 {
