@@ -21,23 +21,23 @@ h1 {
     font-size: 3rem;
     text-align: center;
     text-decoration: underline;
-    margin-bottom: 1em;
+    margin-bottom: .46em;
 }
 
 #andy-image {
     display: block;
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 24px;
+    margin-bottom: 1.5em;
 }
 
 main {
     font-family: "Open Sans", Helvetica, sans-serif;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 main p {
-    margin-bottom: 24px;
+    margin-bottom: 1.5em;
 }
 
 main p:last-child {
@@ -48,7 +48,7 @@ footer {
     font-family: "Open Sans", Helvetica, sans-serif;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 50em) {
     .container {
         line-height: 1.5;
         background-color: #fdb0b0;
@@ -77,44 +77,44 @@ footer {
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50em) {
     .container {
-        max-width: 1200px;
+        max-width: 75em;
         background-color: #9ccfef;
         border-radius: 10px;
         font-family: Roboto, "Open Sans", Helvetica, sans-serif;
     }
 
     h1 {
-        margin-bottom: 24px;
+        margin-bottom: 1.5em;
     }
 
     #andy-image {
         display: inline-block;
         vertical-align: top;
-        margin-right: 40px;
+        margin-right: 2.5em;
         max-width: 30%;
     }
 
     main {
         font-family: "Open Sans", sans-serif;
-        font-size: 22px;
+        font-size: 1.375rem;
         display: inline-block;
         width: 60%;
-        margin-top: -5px;
+        margin-top: -.3125em;
     }
 
     main p {
-        margin-bottom: 24px;
+        margin-bottom: 1.5em;
         display: inline-block;
     }
 
     main p:last-child {
-        margin-bottom: 44px;
+        margin-bottom: 2.75em;
     }
 
     footer {
         text-align: center;
-        padding-bottom: 2rem;
+        padding-bottom: 2em;
     }
 }
